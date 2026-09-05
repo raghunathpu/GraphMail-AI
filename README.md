@@ -1,8 +1,8 @@
-# InboxFlow AI
+# GraphMail AI
 
 A multi-agent email assistant built with Python, LangGraph, Google Gemini, Gmail IMAP, and SMTP.
 
-InboxFlow AI automatically reads emails, classifies them, generates summaries, drafts context-aware replies, and allows human approval before sending responses.
+GraphMail AI automatically reads emails, classifies them, generates summaries, drafts context-aware replies, and allows human approval before sending responses.
 
 ---
 
@@ -82,7 +82,7 @@ Email → Filtering Agent → Summarization Agent → Response Agent → Human R
 ## Project Architecture
 
 ```text
-InboxFlow AI
+GraphMail AI
 
 ├── Filtering Agent
 │   └── Classifies email category
@@ -107,8 +107,8 @@ InboxFlow AI
 Clone the repository:
 
 ```bash
-git clone https://github.com/manikoushik001/InboxFlow-AI.git
-cd InboxFlow-AI
+git clone https://github.com/manikoushik001/GraphMail-AI.git
+cd GraphMail-AI
 ```
 
 Create a virtual environment:
@@ -208,7 +208,7 @@ Approve? (y/n)
 ## Folder Structure
 
 ```text
-InboxFlow-AI
+GraphMail-AI
 │
 ├── agents/
 │   ├── filtering_agent.py
